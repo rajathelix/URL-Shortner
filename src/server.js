@@ -1,11 +1,11 @@
 const express = require('express')
 const { db } = require('./models/db')
 const linksroute = require('./routes/links')
+const redirectRoute = require('./routes/redirection')
 const app = express()
 app.use(express.json())
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+
+app.use('/', redirectRoute)
 
 app.use('/api/links', linksroute)
 
