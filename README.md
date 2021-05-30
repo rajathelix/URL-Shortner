@@ -8,7 +8,8 @@ grant all privileges on database sclrac to sclrac;
 
 Fetch long URL using short code:
 
-![image](https://user-images.githubusercontent.com/23206042/120090676-f7c69400-c121-11eb-98c2-e66a1e7dee41.png)
+![image](https://user-images.githubusercontent.com/23206042/120090896-b9ca6f80-c123-11eb-8e4e-b2472b6f0116.png)
+
 
 Redirection request:
 
